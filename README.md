@@ -22,7 +22,7 @@ The system enables hospitals to:
 The application is deployed using Streamlit Cloud.
 
 🔗 **Access the Live App:**  
-👉 https://your-streamlit-app-url.streamlit.app
+👉 https://sahil-patient-churn-app.streamlit.app
 
 
 ## 🧠 Features
