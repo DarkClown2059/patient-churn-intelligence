@@ -1,44 +1,36 @@
-# 🏥 Patient Churn Intelligence System
+# Patient Churn Prediction App
 
-A machine learning web application that predicts patient churn risk and provides business-driven retention insights.
-
----
-
-## Project Overview
-
-This project analyzes patient engagement data to predict churn probability using a Random Forest classifier.  
-
-The system enables hospitals to:
-
-- Identify high-risk patients
-- Estimate churn probability
-- Assess potential revenue at risk
-- Support proactive retention strategies
+A basic project to build and deploy a machine learning model using a simple web interface.
 
 ---
 
-## Live Demo
+## Overview
 
-The application is deployed using Streamlit Cloud.
+This application predicts patient churn probability using a Random Forest model.
 
-🔗 **Access the Live App:**  
-👉 https://sahil-patient-churn-app.streamlit.app
+A Streamlit interface is used to input data and display predictions.
 
+---
 
 ## Features
 
-- Interactive Streamlit dashboard
-- Gender & Insurance dropdown encoding
-- Risk probability visualization
-- Revenue risk estimation
-- Real-time model inference
-- Feature-based churn prediction
+- Input-based prediction  
+- Streamlit web interface  
+- Pre-trained model loading  
 
 ---
 
-## 📂 Project Structure
+## Tech Stack
 
-```
+- Python  
+- Scikit-learn  
+- Pandas  
+- Streamlit  
+
+---
+
+## Project Structure
+
 patient_churn_app/
 │
 ├── churn_model.pkl
@@ -46,47 +38,13 @@ patient_churn_app/
 ├── app.py
 ├── requirements.txt
 └── README.md
-```
 
 ---
 
-## Run Locally
+## Live Demo
 
-1. Clone the repository:
-
-```
-git clone <your-repo-url>
-cd patient_churn_app
-```
-
-2. Create virtual environment:
-
-```
-python -m venv .venv
-source .venv/bin/activate   # Mac/Linux
-.venv\Scripts\activate      # Windows
-```
-
-3. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-4. Run the app:
-
-```
-streamlit run app.py
-```
+https://sahil-patient-churn-app.streamlit.app
 
 ---
 
-## Deployment
 
-Deployed using Streamlit Cloud.
-
----
-
-## 📈 Business Value
-
-This system demonstrates how predictive analytics can be applied to healthcare operations to reduce churn and improve revenue 
