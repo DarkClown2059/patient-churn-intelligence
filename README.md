@@ -17,6 +17,14 @@ The system enables hospitals to:
 
 ---
 
+## 🌍 Live Demo
+
+The application is deployed using Streamlit Cloud.
+
+🔗 **Access the Live App:**  
+👉 https://your-streamlit-app-url.streamlit.app
+
+
 ## 🧠 Features
 
 - Interactive Streamlit dashboard
